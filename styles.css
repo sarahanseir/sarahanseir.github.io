@@ -81,34 +81,30 @@
     .thirdsection {
       background-color: yellow;
       height: 400px;
-  }
+    }
 
-  .fourthsection {
-    background-color: green;
-    height: 400px;
+    .fourthsection {
+        background-color: green;
+        height: 400px;
+    }
 
-  }
+    .fifthsection {
+        background-color: rgba(0, 0, 255, 0.207);
+        height: 400px;
+    }
+    .sixthsection {
+        background-color: rgba(128, 0, 128, 0.223);
+        height: 400px;
+    }
 
-  .fifthsection {
-      background-color: blue;
-      height: 400px;
-  }
-  .sixthsection {
-    background-color: purple;
-    height: 400px;
-}
-
-.seventhsection {
-    background-color: plum;
-    height: 400px;
-}
-
+    .seventhsection {
+        background-color: plum;
+        height: 400px;
+    }
 
 
 
 
-
- 
     .box-main {
         display: flex;
         justify-content: center;

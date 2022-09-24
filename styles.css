@@ -59,12 +59,14 @@
         text-align: right;
     }
  
+   /*
     #search {
         padding: 5px;
         font-size: 17px;
         border: 2px solid grey;
         border-radius: 9px;
     }
+    */
  
     .firstsection {
         background-color: rgba(227, 31, 31, 0.692);
@@ -72,26 +74,32 @@
     }
  
     .secondsection {
-        background-color: rgb(209, 114, 26);
+        background-color: orange;
         height: 400px;
     }
 
     .thirdsection {
-      background-color: rgb(171, 186, 57);
+      background-color: yellow;
       height: 400px;
   }
 
+  .fourthsection {
+    background-color: green;
+    height: 400px;
+
+  }
+
   .fifthsection {
-      background-color: rgb(29, 117, 19);
+      background-color: blue;
       height: 400px;
   }
   .sixthsection {
-    background-color: rgb(33, 12, 125);
+    background-color: purple;
     height: 400px;
 }
 
 .seventhsection {
-    background-color: rgb(64, 8, 72);
+    background-color: plum;
     height: 400px;
 }
 

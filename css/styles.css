@@ -75,31 +75,31 @@
  
     .secondsection {
         background-color: orange;
-        height: 400px;
+        height: 200px;
     }
 
     .thirdsection {
       background-color: yellow;
-      height: 400px;
+      height: 200px;
     }
 
     .fourthsection {
         background-color: green;
-        height: 400px;
+        height: 200px;
     }
 
     .fifthsection {
         background-color: rgba(0, 0, 255, 0.207);
-        height: 400px;
+        height: 200px;
     }
     .sixthsection {
         background-color: rgba(128, 0, 128, 0.223);
-        height: 400px;
+        height: 200px;
     }
 
     .seventhsection {
         background-color: plum;
-        height: 400px;
+        height: 200px;
     }
 
 
@@ -197,67 +197,7 @@
         color: white;
     }
 
-/*
-  </style>
-*/
 
 
 
 
-
-
-
-
-
-
-/*
-body {
-    background-color: rgb(255, 255, 255);
-    border: 2px rgb(102, 83, 231);
-    padding: 30px;
-  }
-  h1 {
-    color: rgb(0, 0, 0);
-  }
-  p {
-    color: rgb(0, 0, 0);
-  }
-
-
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: rgba(141, 145, 242, 0.342);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  */
-  
-  /* Change the link color to #111 (black) on hover */
-
-  /*
-  li a:hover {
-    background-color: rgba(17, 17, 17, 0.299);
-  }
-
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  */
-  

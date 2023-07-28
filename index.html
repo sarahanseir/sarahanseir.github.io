@@ -1,226 +1,351 @@
-<!-- Document type is HTML -->
-<!DOCTYPE html> 
-
-<!-- Beginning of document-->
-<html lang="en">
-
-
-<head>
-     <button onclick="history.back()">Go Back</button>   
-    <title>
-        IAM Robotics 4810 
-    </title>
-    <link href="css/styles.css" rel="stylesheet">
-
-
-       <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
-  
-        <!-- So info displays correctly on all devices/computers -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-</head>
-
-<body>
-    <nav class="navbar background">
-        <ul class="nav-list">
-            <div class="logo">
-                <img src="images/first.png.webp">
-            </div>
-
-               <!--  <li><a href="#prg">IAM Roboics Programming</a></li> -->  
-                <li><a href="html/downloads.html">Downloads</a></li>
-                <li><a href="html/extra.html">Extra</a></li>
-                <li><a href="html/how_to.html">How To</a></li>
-                <li><a href="#charts">Charts</a></li>
-
-        </ul>
-    </nav>
-
-    <!----------------------------------------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------------------------------------------
-    ----------------------------------------------------------------------------------------------------------------------------->
-
-    <section class="firstsection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <h1 class="text-big" id="prg">
-                    IAM Roboics Programming
-                </h1>
-                <p class="text-small">
-                    <a href="https://www.iamrobot4810.org/">Team page</a>
-                </p>
- 
- 
-            </div>
-        </div>
-    </section>
- 
-<!----------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------
------------------------------------------------------------------------------------------------------------------------------>
-
-    <section class="secondsection">
-        <div class="box-main">
-            <div class="secondHalf">
-                <h1 class="text-big" id="dates">
-                    Important Dates
-                </h1>
-                <p class="text-small">
-        
-                </p>
-  
-            </div>
-        </div>
-    </section>
-
-
-    <!----------------------------------------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------------------------------------------
-    ----------------------------------------------------------------------------------------------------------------------------->
-
-    <section class="thirdsection">
-        <div class="box-main">
-            <div class="secondHalf">
-                <h1 class="text-big" id="todo">
-                    To Do List
-                </h1>
-                <p class="text-small">
-                    
-                    Project List:
-                    <ul>
-                        <li>Costomize Drivers Station</li>
-                        <li>Limelight and other cameras</li>
-                        <li>Android Tablet Scouting App</li>
-                    </ul>
-                </p>
-            </div>
-        </div>
-    </section>
-
-
-    <!----------------------------------------------------------------------------------------------------------------------------
-    ------------------------------------------------------------------------------------------------------------------------------
-    ----------------------------------------------------------------------------------------------------------------------------->
-
-    <!--
-    <section class="fourthsection">
-        <div class="box-main">
-            <div class="secondHalf">
-                <h1 class="text-big" id="downloads">
-                    Downloads
-                </h1>
-                <p class="text-small">
-
-                    <li><a href="https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030&passive=false">Visual Studios Community </a></li>
-                    <br>
-                    <li><a href="https://https://github.com/wpilibsuite/allwpilib/releases/tag/v2022.4.1">WPILIB</a></li>
-                    <br>
-                    <li><a href="https://git-scm.com/downloads">Git</a></li>
-                    <br>
-                    <li><a href="https://store.ctr-electronics.com/software/">Phoenix libraries and tuner</a></li>
-                    <br>
-                    <li><a href="https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#440024/">Frc game tools</a></li>
-                    <br>
-
-                </p>
- 
- 
-            </div>
-        </div>
-    </section>
-    -->
-
-
-    <!--
-
-    <section class="sixthsection">
-        <div class="box-main">
-            <div class="secondHalf">
-                <h1 class="text-big" id="notes">
-                    Notes
-                    <br>
-                </h1>
-                <p class="text-small">
-
-                    <ul>
-                        <li>Programming Environemnt</li>
-                        <br>
-                            <ul>
-
-                                <li>
-                                    <a href="https://visualstudio.microsoft.com/vs/community/">Visual Studios code 2022 Community</a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="https://github.com/wpilibsuite/allwpilib/releases">WPILib</a>
-                                </li>   
-                                <br>                       
-                                <li>
-                                    <a href="https://store.ctr-electronics.com/software/">Phenox Tuner and Libraries</a>
-                                </li>
-                                <br>
-                                <li> 
-                                    <a href="https://git-scm.com/downloads">Git (bash)</a>
-                                </li>
-                                <br>
-                                <li>
-                                    <a href="https://www.ni.com/en-us/support/downloads/drivers/download.frc-game-tools.html#440024">Frc Game Tools</a>
-                                </li>
-                                <br>
-                    
-
-                                </li>
-                            </ul>
-                    </ul>
-
-
-                    Real Time Software Concepts:
-                    <br>
-                    - Scan Time: Loop of 20ms = 50 times per second
-                    <br>
-                            1.Read Imputs
-                                <li>- Photo Eyes</li>
-                                <li> - Encoders</li>
-                                <li> - Limit switches</li>
-                                <li>- Drivers Station</li>
-                                <br>
-                            2.Execute Logic
-                            <br>
-                            3.Write Outputs
-                            <br>
-                            <li>- Solenoids (pheumatics)</li>
-                            <li>- Motors</li>
-                            <br>
-            
-
-                    - Determinism
-                         <li>+ 20 m/s +/- error</li>
-                         <li>+ "Something is deterministic</li>
-                        <br>
-
-
-                    - State Machines
-                        <li>+ Subsystems</li>
-                        <li>+ Chassis (stands alone w/ 4 motors. Does not share with anything else)</li> 
-                        <br>
-
-                        - Sensors (inputs and outputs)
-                        <br>
-                            
- 
-        <div class="thumbnail">
-            <img src="img.png" alt="laptop image">
-        </div>
-    </section>
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
- 
-    <footer class="background">
-        <p class="text-footer">
-            Copyright ©-All rights are reserved
-        </p>
-    </footer>
-</body>
-</html>  <!-- End of document-->
+<html lang="en">
+	<head>
+		<title>Aircrafts</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/main.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Private Pilot Guide</strong> </a>
+									<!--<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
+									</ul>-->
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Aircraft Types<br>
+											by Sarah Nseir</h1>
+											<p>A guide on types of aircrafts</p>
+										</header>
+										<p>
+											The purpose of this website is to teach avaition enthusiast about diffrent types of aircrafts.
+											If you want to learn more about the seven categories of airplanes per the FAA's <a href="https://www.ecfr.gov/current/title-14">CFR 14</a>, use this website!
+											The navigation bar above will direct you to individual pages detailing airplane categories.
+										</p>
+										<ul class="actions">
+											<li><a href="#learnmore" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="images/a400m.jpg" alt="A400m aircraft midflight" title="A400m aircraft midflight">
+									</span>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Preface</h2>
+									</header>
+									<div class="features">
+										<!--<article>
+											<span class="icon fa-gem"></span>
+											<div class="content">
+												<h3>Portitor ullamcorper</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>-->
+										<article>
+											<span class="icon solid fa-paper-plane"></span>
+											<div class="content">
+												<h3>About the Categories</h3>
+												<p>All aircrafts can be broken up into broad categories based on use. 
+													These categories are: airplane, glider, rotorcraft, lighter-than-air, powered lift, powered parachute, and weight-shift control. <a href="#c1">[1]</a> 
+													While similar, these aircarafts have diffrences in their engines, wing structure, propellers, rotors, and weight. One of the largest distinctions between each category is how wach aircraft obtains lift.
+													For individuals interested in avaition, its important to know these difference between each category.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-rocket"></span>
+											<div class="content">
+												<h3>About the Website</h3>
+												<p>
+													This website was created using a template from <a href="https://html5up.net/editorial">html5up.net.</a><br>
+													All images of aircrafts were found on <a href="https://pixabay.com">pixabay.com.</a><br>
+													Javascript code and library for dark mode was found on <a href="https://darkmodejs.learn.uno/">darkmodejs.learn.uno.</a><br>
+													All other citations and refrences can be found by their respective content.
+												</p>
+											</div>
+										</article>
+
+										<!--<article>
+											<span class="icon solid fa-signal"></span>
+											<div class="content">
+												<h3>Sed magna finibus</h3>
+												<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											</div>
+										</article>-->
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section id="learnmore">
+									<header class="major">
+										<h2>Categories</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="pages/planesGlider.html" class="image"><img src="images/airbus.jpg" alt="Commerical airplane parked in airport" title="commerical airplane parked in airport"></a>
+											<h3>Airplane</h3>
+											<p>"Airplane means an engine-driven fixed-wing aircraft heavier than air, that is supported in flight by the dynamic reaction of the air against its wings." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Airplane)">-CFR 14</a></p> 
+											<ul class="actions">
+												<li><a href="pages/planesGlider.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="pages/planesGlider.html" class="image"><img src="images/glider2.jpg" alt="glider mid flight" title="glider mid flight"></a>
+											<h3>Glider</h3>
+											<p>"Glider means a heavier-than-air aircraft, that is supported in flight by the dynamic reaction of the air against its lifting surfaces and whose free flight does not depend principally on an engine." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Glider)">-CFR 14</a></p>
+											<ul class="actions">
+												<li><a href="pages/planesGlider.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="pages/rotorLift.html" class="image"><img src="images/heloc.jpg" alt="helicopter mid-flight" title="helicopter mid-flight"></a>
+											<h3>Rotorcraft</h3>
+											<p>"Rotorcraft means a heavier-than-air aircraft that depends principally for its support in flight on the lift generated by one or more rotors." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Rotorcraft)">-CFR 14</a></p>
+											<ul class="actions">
+												<li><a href="pages/rotorLift.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="pages/rotorLift.html" class="image"><img src="images/osprey.jpg" alt="Bell Boeing V-22 Osprey on aircraft carrier" title="Bell Boeing V-22 Osprey on aircraft carrier"></a>
+											<h3>Powered Lift</h3>
+											<p>"Powered-Lift means a heavier-than-air aircraft capable of vertical takeoff, vertical landing, and low speed flight that depends principally on engine-driven lift devices or engine thrust for lift during these flight regimes and on nonrotating airfoil(s) for lift during horizontal flight." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Powered-lift)">-CFR 14</a></p>
+											<ul class="actions">
+												<li><a href="pages/rotorLift.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="pages/more.html" class="image"><img src="images/gyblimp.jpg" alt="Goodyear blimp" title="Goodyear blimp"></a>
+											<h3>Lighter than air</h3>
+											<p>"Lighter than air means aircraft that can rise and remain suspended by using contained gas weighing less than the air that is displaced by the gas." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Lighter-than-air%20aircraft)">-CFR 14</a></p>
+											<ul class="actions">
+												<li><a href="pages/more.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="pages/more.html" class="image"><img src="images/hangglider.jpg" alt="Two powered parachute aircrafts midflight" title="two powered parachute aircrafts midflight"></a>
+											<h3>Powered Parachute</h3>
+											<p>"Powered Parachute means a powered aircraft comprised of a flexible or semi-rigid wing connected to a fuselage so that the wing is not in position for flight until the aircraft is in motion. The fuselage of a powered parachute contains the aircraft engine, a seat for each occupant and is attached to the aircraft's landing gear." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Powered%20parachute)">-CFR 14</a></p>
+											<ul class="actions">
+												<li><a href="pages/more.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="pages/more.html" class="image"><img src="images/hgtrike.jpg" alt="trike midflight" title="trike midflight"></a>
+											<h3>Weight-Shift Control</h3>
+											<p>"Weight-Shift Control means a powered aircraft with a framed pivoting wing and a fuselage controllable only in pitch and roll by the pilot's ability to change the aircraft's center of gravity with respect to the wing. Flight control of the aircraft depends on the wing's ability to flexibly deform rather than the use of control surfaces." <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-A/part-1/section-1.1#p-1.1(Weight-shift-control%20aircraft)">-CFR 14</a></p>
+											<ul class="actions">
+												<li><a href="pages/more.html" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search">
+									</form>
+								</section>							
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<!--<li><a href="generic.html">Generic</a></li>
+										<li><a href="elements.html">Elements</a></li>
+										-->
+										<li>
+											<span class="opener">Airplanes & Gliders</span>
+											<ul>
+												<li><a href="pages/planesGlider.html">Airplanes</a></li>
+												<li><a href="pages/planesGlider.html">Gliders</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Rotorcraft & Powered Lift</span>
+											<ul>
+												<li><a href="pages/rotorLift.html">Rotorcraft</a></li>
+												<li><a href="pages/rotorLift.html">Powered Lift</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">More Aircrafts</span>
+											<ul>
+												<li><a href="pages/more.html">Lighter than Air</a></li>
+												<li><a href="pages/more.html">Powered Parachute</a></li>
+												<li><a href="pages/more.html">Weight-Shift Control</a></li>
+											</ul>
+										</li>
+										<li><a href="../home.htm">Course Homepage</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+							<!--
+								<section>
+									<header class="major">
+										<h2>Resources</h2>
+									</header>
+									<div class="mini-posts">
+										<article>				
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section>
+							-->
+
+							
+<!--FORM-->
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get In Touch!</h2>
+									</header>
+										<h3>Inquires or website recommendations can be directed to the boxes below.</h3>
+										<p>I love feedback! Let me know what additional avaition information you want to know about. </p>
+										
+										<form method="post" action="mailto:sarahanseir@gmail.com" enctype="text/plain">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="name" id="name" value="" required placeholder="Full Name">
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="email" id="email" value="" required placeholder="Email Address">
+												</div>
+
+												<div class="col-6 col-12-xsmall">
+													<input type="tel" name="phone" id="phone" value=""  placeholder="Phone Number">
+												</div>
+														<!-- Break -->
+														<!--
+														<div class="col-12">
+															<select name="demo-category" id="demo-category">
+																<option value="">- Category -</option>
+																<option value="1">Manufacturing</option>
+																<option value="1">Shipping</option>
+																<option value="1">Administration</option>
+																<option value="1">Human Resources</option>
+															</select>
+														</div>
+														-->
+														<!-- Break -->
+														<!--
+														<div class="col-4 col-12-small">
+															<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+															<label for="demo-priority-low">Low</label>
+														</div>
+														<div class="col-4 col-12-small">
+															<input type="radio" id="demo-priority-normal" name="demo-priority">
+															<label for="demo-priority-normal">Normal</label>
+														</div>
+														<div class="col-4 col-12-small">
+															<input type="radio" id="demo-priority-high" name="demo-priority">
+															<label for="demo-priority-high">High</label>
+														</div
+														-->
+														<!-- Break -->
+														<!--
+														<div class="col-6 col-12-small">
+															<input type="checkbox" id="demo-copy" name="demo-copy">
+															<label for="demo-copy">Email me a copy</label>
+														</div>
+														<div class="col-6 col-12-small">
+															<input type="checkbox" id="demo-human" name="demo-human" checked>
+															<label for="demo-human">I am a human</label>
+														</div>
+														-->
+														<!-- Break -->
+												<div class="col-12">
+													<textarea name="message" id="message" placeholder="Enter Your Message" rows="6"></textarea>
+												</div>
+												<!-- Break -->
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" class="primary" /></li>
+														<li><input type="reset" value="Reset" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p>
+										<a href="index.html">Aircraft Homepage </a>|<a href="pages/planesGlider.html"> Airplanes & Glider </a>|<a href="pages/rotorLift.html"> Rotorcraft & Powered Lift </a>|<a href="pages/more.html"> More </a>|<a href="../home.htm"> Course Homepage </a>
+									</p>
+									<P class="copyright">EDUCATIONAL ONLY, NO COMMERCIAL VALUE</P>
+									<p class="copyright">&copy; SarahNseir. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>. Project 2 Images: <a href="https://pixabay.com">Pixabay.com</a></p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<!--Part #3: Dynamic w/ js-->
+			<!--<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>-->
+			<script src="assets/js/darkmode.js"></script>
+			<script>
+			function addDarkmodeWidget() {
+				new Darkmode().showWidget();
+			}
+				window.addEventListener('load', addDarkmodeWidget);
+			</script>
+
+	</body>
+</html>
